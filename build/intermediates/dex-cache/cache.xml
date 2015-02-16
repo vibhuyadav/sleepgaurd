@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/vibhuyadav/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0-2cf6ef0f3f49a99f32ecb6dc357af78c7a8cee2f.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-67addb601f9643162abd910bf4a655309969f28a.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.19.0/cdca49ad0977c040f603478aa2e16b2775c8fec6/google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/google-http-client-1.19.0-ac730b9d3db047613b0168d6e1249b265d31f824.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.19.0-ac016af7c8fb8c8fbf5fc985b67831c6767c8289.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-c50de5faa19ed0812d11b3771687ac71b2265ed4.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6d69a662c5c7aa2672d8c089384f84d643f55464.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/classes-5d023316a338fd2dde06c67ec8f1146ff02a090c.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/classes-cf303d588f3fb59e628df944e80e63b41f29f789.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.19.0-612b5e9bad21411a454e424b253c32beb428df97.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/backend/build/libs/backend-android-endpoints.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6da4268237b0deb0b7e0232e9ed2dfd04c6571ff">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/backend-android-endpoints-66daf98bd8c0284f98c3a8591c9b1590f04d1234.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.19.0/6a21277d9bebe267b7ddee028b241eebc756c040/google-api-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/google-api-client-1.19.0-86f354811807446242edf0830a3f69a069344098.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.19.0/e3f11020c2c812112803d252d1392872d3f619c8/google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.19.0-62f11e9ebc18c96e72464659353e25235f817d2b.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-12bad66c7a418de0bbd498744d8500d58a952d92.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.19.0/ba2aafb867f6af469f936ae76426cf0a280094bd/google-api-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.19.0-208cc32da5857bcd391a386a9cf8147b966f2090.jar" />
+    </item>
+    <item
+        jar="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/classes-4236fc49d5fc80b64db6a11cd3593fce857508e4.jar" />
+    </item>
+
+</items>
