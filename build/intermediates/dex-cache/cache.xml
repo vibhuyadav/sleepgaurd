@@ -68,7 +68,7 @@
         jar="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/backend/build/libs/backend-android-endpoints.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="6da4268237b0deb0b7e0232e9ed2dfd04c6571ff">
+        sha1="3713f41ca063107e4b08480fd4d528cf91e5b83e">
         <dex dex="/Users/vibhuyadav/AndroidStudioProjects/SleepGaurd/app/build/intermediates/pre-dexed/debug/backend-android-endpoints-66daf98bd8c0284f98c3a8591c9b1590f04d1234.jar" />
     </item>
     <item

@@ -18,8 +18,6 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
-import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
-import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -34,6 +32,8 @@ public class MainActivity extends ActionBarActivity {
     private static final String PROPERTY_APP_VERSION = "appVersion";
     String SENDER_ID = "530139348531";
 
+    private Registration recService;
+    private Registration regService;
 
     TextView mDisplay;
     GoogleCloudMessaging gcm;
@@ -50,20 +50,22 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mDisplay = (TextView) findViewById(R.id.display);
+        new GcmRegistrationAsyncTask(this).execute();
 
-        context = getApplicationContext();
-
-        if (checkPlayServices()) {
-            gcm = GoogleCloudMessaging.getInstance(this);
-            regid = getRegistrationId(context);
-
-            if (regid.isEmpty()) {
-                registerInBackground();
-            }
-        } else {
-            Log.i(TAG, "No valid Google Play Services APK found.");
-        }
+//        mDisplay = (TextView) findViewById(R.id.display);
+//
+//        context = getApplicationContext();
+//
+//        if (checkPlayServices()) {
+//            gcm = GoogleCloudMessaging.getInstance(this);
+//            regid = getRegistrationId(context);
+//
+//            if (regid.isEmpty()) {
+//                registerInBackground();
+//            }
+//        } else {
+//            Log.i(TAG, "No valid Google Play Services APK found.");
+//        }
     }
 
     @Override
@@ -170,14 +172,7 @@ public class MainActivity extends ActionBarActivity {
 
 
             Registration.Builder builder = new Registration.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
-                    // Need setRootUrl and setGoogleClientRequestInitializer only for local testing, otherwise they can be skipped
-                    .setRootUrl("http://localhost:8080/_ah/api/")
-                    .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
-                        @Override
-                        public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest) throws IOException {
-                            abstractGoogleClientRequest.setDisableGZipContent(true);
-                        }
-                    });
+                    .setRootUrl("https://praxis-practice-856.appspot.com/_ah/api/");
             // end of optional local run code
 
             Registration regService = builder.build();

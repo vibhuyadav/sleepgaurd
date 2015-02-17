@@ -7,9 +7,9 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
-import android.os.Handler;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
@@ -36,7 +36,7 @@ public class GcmIntentService extends IntentService {
         // in your BroadcastReceiver.
         String messageType = gcm.getMessageType(intent);
 
-        if (!extras.isEmpty()) {  // has effect of unparcelling Bundle
+        if (!extras.isEmpty() && !extras.isEmpty()) {  // has effect of unparcelling Bundle
             /*
              * Filter messages based on message type. Since it is likely that GCM will be
              * extended in the future with new message types, just ignore any message types you're
@@ -60,7 +60,7 @@ public class GcmIntentService extends IntentService {
                 }
                 Log.i(TAG, "Completed work @ " + SystemClock.elapsedRealtime());
                 // Post notification of received message.
-                sendNotification("Received: " + extras.toString());
+                sendNotification("Received: " + extras.getString("message"));
                 Log.i(TAG, "Received: " + extras.toString());
             }
         }
@@ -80,7 +80,7 @@ public class GcmIntentService extends IntentService {
 
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(this)
-//                        .setSmallIcon(R.drawable.ic_stat_gcm)
+                        .setSmallIcon(R.drawable.ic_launcher)
                         .setContentTitle("GCM Notification")
                         .setStyle(new NotificationCompat.BigTextStyle()
                                 .bigText(msg))
@@ -98,4 +98,35 @@ public class GcmIntentService extends IntentService {
             }
         });
     }
+//public GcmIntentService() {
+//    super("GcmIntentService");
+//}
+//
+//    @Override
+//    protected void onHandleIntent(Intent intent) {
+//        Bundle extras = intent.getExtras();
+//        GoogleCloudMessaging gcm = GoogleCloudMessaging.getInstance(this);
+//        // The getMessageType() intent parameter must be the intent you received
+//        // in your BroadcastReceiver.
+//        String messageType = gcm.getMessageType(intent);
+//
+//        if (extras != null && !extras.isEmpty()) {  // has effect of unparcelling Bundle
+//            // Since we're not using two way messaging, this is all we really to check for
+//            if (GoogleCloudMessaging.MESSAGE_TYPE_MESSAGE.equals(messageType)) {
+//                Logger.getLogger("GCM_RECEIVED").log(Level.INFO, extras.toString());
+//
+//                showToast(extras.getString("message"));
+//            }
+//        }
+//        GcmBroadcastReceiver.completeWakefulIntent(intent);
+//    }
+//
+//    protected void showToast(final String message) {
+//        new Handler(Looper.getMainLooper()).post(new Runnable() {
+//            @Override
+//            public void run() {
+//                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+//            }
+//        });
+//    }
 }
